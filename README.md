@@ -15,16 +15,21 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
-   -  Short changes 1
-   - Short changes 2
-
-- **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
    - Short changes 1
    - Short changes 2
 
-- **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 1](changelog/sprint-1.md) - (date from 15/11/2022 until 21/11/2022)** 
+   - Tampilan grid 9x9 dengan subgrid
+   - Tampilan menubar
+
+- **[Sprint 2](changelog/sprint-2.md) - (date from 22/11/2022 until 28/11/2022)** 
+   - Tampilan level kesulitan
+   - Implementasi PBO pada Level
+   - Implementasi PBO pada About
+   - Implementasi PBO pada Help
+   - Implementasi PBO pada Restart
+   - Implementasi PBO pada Reset
+   - Implementasi PBO pada Exit
    
 - **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
    - Short changes 1
