@@ -14,12 +14,10 @@ public class Sudokuh extends JFrame {
     public Squares [] squares = new Squares[SQUARE_COUNT];
     
     public Sudokuh() {
-        
         super("Sudoku");
         setSize(600,600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        
-        
         JPanel panel = new JPanel(new GridLayout(3,3));
         for(int i = 0; i < SQUARE_COUNT; i++){
             squares[i] = new Squares();
@@ -32,31 +30,28 @@ public class Sudokuh extends JFrame {
         JMenu aboutMenu = new JMenu("About");
             JMenuItem about = new JMenuItem("Sudoku Game");
             aboutMenu.add(about);
-	menuBar.add(aboutMenu);
+	    menuBar.add(aboutMenu);
  
         JMenu helpMenu = new JMenu("Help");
             JMenuItem help = new JMenuItem("How To Play");
             helpMenu.add(help);
-	menuBar.add(helpMenu);
+	    menuBar.add(helpMenu);
         
         JMenu mainMenu = new JMenu("Menu");
+            JMenuItem gameLevel = new JMenuItem("Level Game");
+            mainMenu.add(gameLevel);
             JMenuItem restartGame = new JMenuItem("Restart Game");
             mainMenu.add(restartGame);
-	menuBar.add(mainMenu);
-
             JMenuItem resetGame = new JMenuItem("Reset Game");
-            menuBar.add(resetGame);
-	menuBar.add(mainMenu);
-
+            mainMenu.add(resetGame);
             JMenuItem exitGame = new JMenuItem("Exit Game");
-            menuBar.add(exitGame);
-	menuBar.add(mainMenu);
+            mainMenu.add(exitGame);
+	    menuBar.add(mainMenu);
         
         add(panel, BorderLayout.CENTER);
  
         setVisible(true);
         setLocationRelativeTo(null);
- 
     }
  
     public class exitaction implements ActionListener{

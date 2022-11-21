@@ -14,12 +14,10 @@ public class SudokuBoard extends JFrame {
     public Squares [] squares = new Squares[SQUARE_COUNT];
     
     public SudokuBoard() {
-        
         super("Sudoku");
         setSize(600,600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        
-        
         JPanel panel = new JPanel(new GridLayout(3,3));
         for(int i = 0; i < SQUARE_COUNT; i++){
             squares[i] = new Squares();
@@ -32,12 +30,12 @@ public class SudokuBoard extends JFrame {
         JMenu aboutMenu = new JMenu("About");
             JMenuItem about = new JMenuItem("Sudoku Game");
             aboutMenu.add(about);
-	menuBar.add(aboutMenu);
+	    menuBar.add(aboutMenu);
  
         JMenu helpMenu = new JMenu("Help");
             JMenuItem help = new JMenuItem("How To Play");
             helpMenu.add(help);
-	menuBar.add(helpMenu);
+	    menuBar.add(helpMenu);
         
         JMenu mainMenu = new JMenu("Menu");
             JMenuItem gameLevel = new JMenuItem("Level Game");
@@ -48,13 +46,12 @@ public class SudokuBoard extends JFrame {
             mainMenu.add(resetGame);
             JMenuItem exitGame = new JMenuItem("Exit Game");
             mainMenu.add(exitGame);
-	menuBar.add(mainMenu);
+	    menuBar.add(mainMenu);
         
         add(panel, BorderLayout.CENTER);
  
         setVisible(true);
         setLocationRelativeTo(null);
- 
     }
  
     public class exitaction implements ActionListener{
