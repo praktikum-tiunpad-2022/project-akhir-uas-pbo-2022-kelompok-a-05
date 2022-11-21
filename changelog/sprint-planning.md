@@ -1,24 +1,38 @@
 # Sprint Planning 
-| dd/mm/yyyy
+| 15/11/2022
 
 ### Team (Insert your name)
-| NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| NPM           | Name                          |
+| ------------- |-------------------------------|
+| 140810210021  | Mohammad Zidan Yohanza        |
+| 140810210063  | Sarah Khairunnisa Prihantoro  |
+| 140810210065  | Zakia Noorardini              |
 
 ## Sprint Backlog Keseluruhan 
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-| 1.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| ID   | Title/Desc                        | Asignee | 
+| ---- | --------------------------------- | ------- | 
+| 1.1  | Tampilan grid 9x9 dengan subgrid  | Barengan| 
+| 2.2  | Tampilan menubar                  | Barengan| 
+| 3.1  | Tampilan level kesulitan          | Zidan   | 
+| 3.2  | Implementasi PBO pada Level       | Zidan   | 
+| 4.1  | Implementasi PBO pada About       | Kia     |
+| 5.1  | Implementasi PBO pada Help        | Kia     |
+| 6.1  | Implementasi PBO pada Restart     | Sarah   |
+| 6.2  | Implementasi PBO pada Reset       | Sarah   |
+| 6.3  | Implementasi PBO pada Exit        | Sarah   |
+| 7.1  | Tampilan string dan clue          | TBC     |
+| 8.1  | Mengacak angka pada grid          | TBC     |
+| 9.1  | Set angka yang tidak bisa diganti | TBC     |
+| 10.1 | Cek input benar/salah             | TBC     |
+| 11.1 | Highlight grid yang bernilai sama | TBC     |
+| 12.1 | Perbaikan tampilan                | TBC     |
 
 ## Sprint Backlog Plan (Sprint 1)
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-| 1.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| ID    | Title/Desc                        | Asignee | 
+| ----- | --------------------------------- | ------- | 
+| 1.1   | Tampilan grid 9x9 dengan subgrid  | TBC     | 
+| 2.2   | Implementasi dasar PBO            | TBC     | 
+| 3.3   | Tampilan tingkat kesulitan        | TBC     |
 
 ## Retrospective 
 
