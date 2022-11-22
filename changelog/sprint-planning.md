@@ -35,4 +35,4 @@
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Tidak banyak backlog yang dikerjakan pada Sprint 1 karena sedang kami eksplorasi tentang GUI serta sedang banyak deadline tugas lain yang harus diselesaikan.
