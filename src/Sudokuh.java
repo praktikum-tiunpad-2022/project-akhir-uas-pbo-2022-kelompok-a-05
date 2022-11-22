@@ -54,8 +54,8 @@ public class Sudokuh extends JFrame {
         setLocationRelativeTo(null);
     }
  
-    public class exitaction implements ActionListener{
-        public void actionPerformed (ActionEvent e){
+    public class exitaction implements ActionListener {
+        public void actionPerformed (ActionEvent e) {
             System.exit(0);
         }
     }
