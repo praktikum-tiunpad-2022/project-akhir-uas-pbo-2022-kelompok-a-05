@@ -1,7 +1,7 @@
 # Sprint Planning 
 | 15/11/2022
 
-### Team (Insert your name)
+### Team (Kelompok-a-05)
 | NPM           | Name                          |
 | ------------- |-------------------------------|
 | 140810210021  | Mohammad Zidan Yohanza        |
