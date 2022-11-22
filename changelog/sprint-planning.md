@@ -28,11 +28,10 @@
 | 12.1 | Perbaikan tampilan                | TBC     |
 
 ## Sprint Backlog Plan (Sprint 1)
-| ID    | Title/Desc                        | Asignee | 
-| ----- | --------------------------------- | ------- | 
-| 1.1   | Tampilan grid 9x9 dengan subgrid  | TBC     | 
-| 2.2   | Implementasi dasar PBO            | TBC     | 
-| 3.3   | Tampilan tingkat kesulitan        | TBC     |
+| ID    | Title/Desc                        | Asignee      | Status |
+| ----- | --------------------------------- | ------------ | ------ |
+| 1.1   | Tampilan grid 9x9 dengan subgrid  | Barengan     | DONE   |
+| 2.1   | Tampilan menu bar                 | Barengan     | DONE   |
 
 ## Retrospective 
 
