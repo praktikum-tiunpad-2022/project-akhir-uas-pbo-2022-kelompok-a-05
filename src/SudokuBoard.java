@@ -19,7 +19,7 @@ public class SudokuBoard extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        
         JPanel panel = new JPanel(new GridLayout(3,3));
-        for(int i = 0; i < SQUARE_COUNT; i++){
+        for(int i = 0; i < SQUARE_COUNT; i++) {
             squares[i] = new Squares();
             panel.add(squares[i]);
         }
@@ -54,8 +54,8 @@ public class SudokuBoard extends JFrame {
         setLocationRelativeTo(null);
     }
  
-    public class exitaction implements ActionListener{
-        public void actionPerformed (ActionEvent e){
+    public class exitaction implements ActionListener {
+        public void actionPerformed (ActionEvent e) {
             System.exit(0);
         }
     }
