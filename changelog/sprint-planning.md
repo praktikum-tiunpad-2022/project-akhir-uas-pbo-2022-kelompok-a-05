@@ -12,20 +12,20 @@
 | ID   | Title/Desc                        | Asignee | 
 | ---- | --------------------------------- | ------- | 
 | 1.1  | Tampilan grid 9x9 dengan subgrid  | Barengan| 
-| 2.2  | Tampilan menubar                  | Barengan| 
-| 3.1  | Tampilan level kesulitan          | Zidan   | 
-| 3.2  | Implementasi PBO pada Level       | Zidan   | 
-| 4.1  | Implementasi PBO pada About       | Kia     |
-| 5.1  | Implementasi PBO pada Help        | Kia     |
-| 6.1  | Implementasi PBO pada Restart     | Sarah   |
-| 6.2  | Implementasi PBO pada Reset       | Sarah   |
-| 6.3  | Implementasi PBO pada Exit        | Sarah   |
-| 7.1  | Tampilan string dan clue          | TBC     |
-| 8.1  | Mengacak angka pada grid          | TBC     |
-| 9.1  | Set angka yang tidak bisa diganti | TBC     |
-| 10.1 | Cek input benar/salah             | TBC     |
-| 11.1 | Highlight grid yang bernilai sama | TBC     |
-| 12.1 | Perbaikan tampilan                | TBC     |
+| 1.2  | Tampilan menubar                  | Barengan| 
+| 2.1  | Tampilan level kesulitan          | Zidan   | 
+| 2.2  | Implementasi PBO pada Level       | Zidan   | 
+| 2.3  | Implementasi PBO pada About       | Kia     |
+| 2.4  | Implementasi PBO pada Help        | Kia     |
+| 2.5  | Implementasi PBO pada Restart     | Sarah   |
+| 2.6  | Implementasi PBO pada Reset       | Sarah   |
+| 2.7  | Implementasi PBO pada Exit        | Sarah   |
+| 3.1  | Tampilan string dan clue          | TBC     |
+| 3.2  | Mengacak angka pada grid          | TBC     |
+| 3.3  | Set angka yang tidak bisa diganti | TBC     |
+| 3.4  | Cek input benar/salah             | TBC     |
+| 3.5  | Highlight grid yang bernilai sama | TBC     |
+| 3.6  | Perbaikan tampilan                | TBC     |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID    | Title/Desc                        | Asignee      | Status |
