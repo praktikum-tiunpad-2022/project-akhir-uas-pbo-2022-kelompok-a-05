@@ -17,7 +17,7 @@
 | ID    | Title/Desc                        | Asignee      | Status |
 | ----- | --------------------------------- | ------------ | ------ |
 | 1.1   | Tampilan grid 9x9 dengan subgrid  | Barengan     | DONE   |
-| 2.1   | Tampilan menu bar                 | Barengan     | DONE   |
+| 1.2   | Tampilan menu bar                 | Barengan     | DONE   |
 
 ## Retrospective 
 
@@ -26,10 +26,10 @@ Tidak banyak backlog yang dikerjakan pada Sprint 1 karena sedang kami eksplorasi
 ## Next Sprint Backlog (Sprint 2)
 | ID    | Title/Desc                        | Asignee | 
 | ----- | --------------------------------- | ------- | 
-| 3.1   | Tampilan level kesulitan          | Zidan   | 
-| 3.2   | Implementasi PBO pada Level       | Zidan   | 
-| 4.1   | Implementasi PBO pada About       | Kia     |
-| 5.1   | Implementasi PBO pada Help        | Kia     |
-| 6.1   | Implementasi PBO pada Restart     | Sarah   |
-| 6.2   | Implementasi PBO pada Reset       | Sarah   |
-| 6.3   | Implementasi PBO pada Exit        | Sarah   |
+| 2.1   | Tampilan level kesulitan          | Zidan   | 
+| 2.2   | Implementasi PBO pada Level       | Zidan   | 
+| 2.3   | Implementasi PBO pada About       | Kia     |
+| 2.4   | Implementasi PBO pada Help        | Kia     |
+| 2.5   | Implementasi PBO pada Restart     | Sarah   |
+| 2.6   | Implementasi PBO pada Reset       | Sarah   |
+| 2.7   | Implementasi PBO pada Exit        | Sarah   |
