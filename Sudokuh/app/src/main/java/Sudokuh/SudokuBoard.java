@@ -48,6 +48,13 @@ public class SudokuBoard extends JFrame {
             mainMenu.add(resetGame);
             JMenuItem exitGame = new JMenuItem("Exit Game");
             mainMenu.add(exitGame);
+
+            exitGame.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    System.exit(0); //exit
+                }
+            });
 	    menuBar.add(mainMenu);
         
         add(panel, BorderLayout.CENTER);
