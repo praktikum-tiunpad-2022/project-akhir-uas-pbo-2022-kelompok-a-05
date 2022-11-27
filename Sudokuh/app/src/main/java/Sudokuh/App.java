@@ -10,12 +10,12 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 
-public class Sudokuh extends JFrame {
+public class App extends JFrame {
 
     public final int SQUARE_COUNT = 9;
     public Squares [] squares = new Squares[SQUARE_COUNT];
     
-    public Sudokuh() {
+    public App() {
         super("Sudoku");
         setSize(600,600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
