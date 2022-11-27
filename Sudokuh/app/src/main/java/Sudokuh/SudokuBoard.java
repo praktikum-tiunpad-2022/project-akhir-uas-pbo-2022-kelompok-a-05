@@ -43,6 +43,12 @@ public class SudokuBoard extends JFrame {
  
         JMenu helpMenu = new JMenu("Help");
             JMenuItem help = new JMenuItem("How To Play");
+            help.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    JOptionPane.showMessageDialog(null,"1. Tiap baris harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama dalam satu baris.\n2. Tiap kolom juga harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama dalam satu kolom.\n3. Tiap kotak dengan ukuran 3 x 3 yang berisi 9 kotak-kotak kecil harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama.");
+                }
+            });
             helpMenu.add(help);
 	    menuBar.add(helpMenu);
         
