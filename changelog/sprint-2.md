@@ -19,8 +19,8 @@
 | ---- | --------------------------------- |-------- | ------ |
 | 3.1  | Tampilan level kesulitan          | Zidan   | TBA    |
 | 3.2  | Implementasi PBO pada Level       | Zidan   | TBA    |
-| 4.1  | Implementasi PBO pada About       | Kia     | TBA    |
-| 5.1  | Implementasi PBO pada Help        | Kia     | TBA    |
+| 4.1  | Implementasi PBO pada About       | Kia     | DONE    |
+| 5.1  | Implementasi PBO pada Help        | Kia     | DONE    |
 | 6.1  | Implementasi PBO pada Restart     | Sarah   | TBA    |
 | 6.2  | Implementasi PBO pada Reset       | Sarah   | TBA    |
 | 6.3  | Implementasi PBO pada Exit        | Sarah   | TBA    |
