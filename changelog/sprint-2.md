@@ -19,11 +19,12 @@
 | ---- | --------------------------------- |-------- | ------ |
 | 2.1  | Tampilan level kesulitan          | Zidan   | DONE   |
 | 2.2  | Implementasi PBO pada Level       | Zidan   | DONE   |
-| 2.3  | Implementasi PBO pada About       | Kia     | DONE   |
-| 2.4  | Implementasi PBO pada Help        | Kia     | DONE   |
-| 2.5  | Implementasi PBO pada Restart     | Sarah   | DONE   |
-| 2.6  | Implementasi PBO pada Reset       | Sarah   | DONE   |
-| 2.7  | Implementasi PBO pada Exit        | Sarah   | DONE   |
+| 2.3  | Mengacak angka pada grid          | Zidan   | DONE   |
+| 2.4  | Implementasi PBO pada About       | Kia     | DONE   |
+| 2.5  | Implementasi PBO pada Help        | Kia     | DONE   |
+| 2.6  | Implementasi PBO pada Restart     | Sarah   | DONE   |
+| 2.7  | Implementasi PBO pada Reset       | Sarah   | DONE   |
+| 2.8  | Implementasi PBO pada Exit        | Sarah   | DONE   |
 
 ## Retrospective 
 
