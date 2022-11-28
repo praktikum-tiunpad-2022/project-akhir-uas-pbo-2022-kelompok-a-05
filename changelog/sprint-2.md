@@ -11,7 +11,7 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 7             | n             |
+| 7             | 7             |
 
 ## Sprint 2 Backlog
 
@@ -22,8 +22,8 @@
 | 2.3  | Implementasi PBO pada About       | Kia     | DONE   |
 | 2.4  | Implementasi PBO pada Help        | Kia     | DONE   |
 | 2.5  | Implementasi PBO pada Restart     | Sarah   | DONE   |
-| 2.6  | Implementasi PBO pada Reset       | Sarah   | TBA    |
-| 2.7  | Implementasi PBO pada Exit        | Sarah   | TBA    |
+| 2.6  | Implementasi PBO pada Reset       | Sarah   | DONE   |
+| 2.7  | Implementasi PBO pada Exit        | Sarah   | DONE   |
 
 ## Retrospective 
 

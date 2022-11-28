@@ -149,6 +149,37 @@ public class App extends JFrame {
             JMenuItem exitGame = new JMenuItem("Exit Game");
             mainMenu.add(exitGame);
 
+			resetGame.addActionListener(new ActionListener() {
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					for (int row = 0; row < grid; ++row) {
+						for (int col = 0; col < grid; ++col) {
+							if (restgame[row][col]) {
+								tampilan[row][col].setText(""); // set ke string kosong
+								tampilan[row][col].setEditable(true);	// dapat diedit
+								tampilan[row][col].setBackground(color_blank);
+							}
+							else {
+								tampilan[row][col].setText(sudokupuzzle[row][col] + ""); // sudah berisi angka
+								tampilan[row][col].setEditable(false); // tidak dapat diedit
+								tampilan[row][col].setBackground(color_fill);
+								tampilan[row][col].setForeground(color_number);
+							}
+						 }
+					}
+		
+				}
+			});
+
+			restartGame.addActionListener(new ActionListener() {
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					dispose();
+					setLevel (5);
+					new App();
+				}
+			});
+
             exitGame.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
