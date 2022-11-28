@@ -5,11 +5,12 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JFrame;
+
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
-import javax.swing.JOptionPane;
+
 
 public class SudokuBoard extends JFrame {
 
@@ -29,32 +30,20 @@ public class SudokuBoard extends JFrame {
  
         JMenuBar menuBar = new JMenuBar();
         setJMenuBar(menuBar);
- 
-        JMenu aboutMenu = new JMenu("About");
-            JMenuItem about = new JMenuItem("Sudoku Game");
-            about.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    JOptionPane.showMessageDialog(null,"Sudoku adalah singkatan bahasa Jepang, yaitu Suuji wa dokushin ni kagiru, artinya angka-angkanya\nharus tetap tunggal. Dikenal juga sebagai Number Place atau Nanpure yang merupakan teka-teki logika.\nBertujuan untuk mengisikan angka-angka dari 1 sampai 9 ke dalam kotak berukuran 9 x 9 yang terdiri\ndari 9 kotak 3 x 3 tanpa ada angka yang berulang di satu baris, kolom atau kotak.");
-                }
-            });
-            aboutMenu.add(about);
-	    menuBar.add(aboutMenu);
- 
-        JMenu helpMenu = new JMenu("Help");
-            JMenuItem help = new JMenuItem("How To Play");
-            help.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    JOptionPane.showMessageDialog(null,"1. Tiap baris harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama dalam satu baris.\n2. Tiap kolom juga harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama dalam satu kolom.\n3. Tiap kotak dengan ukuran 3 x 3 yang berisi 9 kotak-kotak kecil harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama.");
-                }
-            });
-            helpMenu.add(help);
-	    menuBar.add(helpMenu);
+
         
         JMenu mainMenu = new JMenu("Menu");
-            JMenuItem gameLevel = new JMenuItem("Level Game");
+            JMenu gameLevel = new JMenu("Level Game");
+            JMenuItem easy = new JMenuItem("Easy");
+            JMenuItem medium = new JMenuItem("Medium");
+            JMenuItem hard = new JMenuItem("Hard");
+
+            gameLevel.add(easy);
+            gameLevel.add(medium);
+            gameLevel.add(hard);
+
             mainMenu.add(gameLevel);
+
             JMenuItem restartGame = new JMenuItem("Restart Game");
             mainMenu.add(restartGame);
             JMenuItem resetGame = new JMenuItem("Reset Game");
@@ -81,6 +70,7 @@ public class SudokuBoard extends JFrame {
             System.exit(0);
         }
     }
+        
     
     public static void main(String[] args) {
         SudokuBoard board = new SudokuBoard();
