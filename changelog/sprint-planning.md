@@ -10,7 +10,7 @@
 
 ## Sprint Backlog Keseluruhan 
 | ID   | Title/Desc                                | Asignee | 
-| ---- | --------------------------------- --------| ------- | 
+| ---- | ----------------------------------------- | ------- | 
 | 1.1  | Tampilan grid 9x9 dengan subgrid          | Barengan| 
 | 1.2  | Tampilan menubar                          | Barengan| 
 | 2.1  | Tampilan level kesulitan                  | Zidan   | 
@@ -41,7 +41,7 @@ Tidak banyak backlog yang dikerjakan pada Sprint 1 karena sedang kami eksplorasi
 
 ## Sprint Backlog Plan (Sprint 2)
 
-| ID    | Title/Desc                       | Asignee | Status |
+| ID   | Title/Desc                        | Asignee | Status |
 | ---- | --------------------------------- |-------- | ------ |
 | 2.1  | Tampilan level kesulitan          | Zidan   | DONE   |
 | 2.2  | Implementasi PBO pada Level       | Zidan   | DONE   |

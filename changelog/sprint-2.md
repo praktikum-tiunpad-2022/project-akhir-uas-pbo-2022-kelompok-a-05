@@ -11,11 +11,11 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 7             | 7             |
+| 8             | 8             |
 
 ## Sprint 2 Backlog
 
-| ID    | Title/Desc                       | Asignee | Status |
+| ID   | Title/Desc                        | Asignee | Status |
 | ---- | --------------------------------- |-------- | ------ |
 | 2.1  | Tampilan level kesulitan          | Zidan   | DONE   |
 | 2.2  | Implementasi PBO pada Level       | Zidan   | DONE   |
