@@ -71,7 +71,11 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
   ```
 
 ## Classes Used
-TO;DO
+   Class Sudoku (Main Program)
+      Program utama yang berisi method main.
+   0 Class Variable
+   1 Method
+    main() - Method main yang menginvoke mainUI sebagai GameInterface
 
 UML image here
 
