@@ -111,7 +111,10 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
          - Method aboutyClicked() untuk mengeksekusi tentang sudoku ketika tombol diklik
          - Method keluarClicked() untuk keluar dari program ketika tombol diklik     
           
-       
+    - Class Time(Class untuk menjalankan timer)
+      - 2 Method
+         - Method getWaktuSekarang() untuk mengembalikan waktu dengan format (HH:MM:SS)
+         - Method oneSecondPassed() untuk mengeksekusi looping waktu      
 
 UML image here
 
