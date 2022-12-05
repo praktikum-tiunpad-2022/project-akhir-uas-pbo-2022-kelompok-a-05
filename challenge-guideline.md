@@ -13,7 +13,6 @@ dengan rincian:
 ‘hard’ : banyak tile yang berisi angka ada 1x9 buah, (command: java Sudoku hard)
 - Setiap kali program berjalan akan menampilkan ubin-ubin dengan isi nomor unik (tidak ada angka yang sama pada 1 baris, 1 kolom, dan 1 sub-grids) yang teracak dari angka 1 sampai 9, kemudian terdapat beberapa ubin yang dimasking tergantung tingkat kesulitan yang dipilih.
 
-
 B. Setelah app berjalan
 - Tampilkan grid ubin dengan besar 9 x 9 yang terdiri dari 3 x 3 sub-grids dimana ubin adalah komponen drawing board.
 - Acak angka di dalam ubin dengan syarat unik (tidak ada angka yang sama pada 1 baris, 1 kolom, dan 1 sub-grids).
@@ -26,12 +25,12 @@ B. Setelah app berjalan
     - Highlight ubin yang sudah berisi angka, jika dalam 1 baris, 1 kolom, atau 1 sub-grids berisi angka yang sama dengan inputan user
 - Buat button “Reset/Restart” untuk mengacak ulang grid dan memulai game baru.
 
-
 C. Batasan lainnya
 - Gunakan prinsip modularitas pada code, misalnya initGame(), getPuzzle(), dll
 - Tampilan dibuat semenarik mungkin, misalnya warna, font, layout, dll
 - Method yang digunakan dibebaskan asalkan mencakupi fungsi yang diminta dari poin B.
 - Jika ada batasan atau fitur tambahan lain, tolong deskripsikan kepada asprak (akan menjadi nilai lebih) 
+
 D. Challenge ideas (optional)
 - Buat menu bar seperti :  "File" ("Restart", "Clear", "Exit"), "About", and "Help"
 - Buat Timer dan action pause dan resume
