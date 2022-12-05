@@ -55,7 +55,6 @@
               <menus>
                 <Menu mnemonicParsing="false" text="File">
                   <items>
-                    <MenuItem fx:id="restartId" mnemonicParsing="false" onAction="#restartClicked" text="Restart" />
                         <MenuItem fx:id="clearId" mnemonicParsing="false" onAction="#clear" text="Clear" />
                         <MenuItem fx:id="exitId" mnemonicParsing="false" onAction="#exitClicked" text="Exit" />
                   </items>
