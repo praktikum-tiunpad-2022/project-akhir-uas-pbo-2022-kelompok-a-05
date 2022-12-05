@@ -71,9 +71,9 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
   ```
 
 ## Classes Used
-   - Class Sudoku (Main Program)(Program utama yang berisi method main.)
-         0 Class Variable
-         2 Method
+   **Class Sudoku (Main Program)(Program utama yang berisi method main.)
+   - 0 Class Variable
+   - 2 Method
          start() - Membuka file fxml dengan layout dan judul yang telah ditentukan
          main() - Method main menjalankan progarm
        
