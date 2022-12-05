@@ -57,15 +57,20 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Perbaikan tampilan
 
 ## Running The App
-
-TO;DO with steps
+- Arahkan directory pada repository.
+- Arahkan ke folder SudokuhFX.
+  ```shell
+  cd SudokuhFX
+  ```
+- Jalankan dengan perintah gradlew run.
+  ```shell
+  ./gradlew run
+  ```
 
 ## Classes Used
-
 TO;DO
 
 UML image here
 
 ## Notable Assumption and Design App Details
-
 TO;DO
