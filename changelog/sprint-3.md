@@ -11,7 +11,7 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 7             | n             |
+| 8             | 4.5           |
 
 ## Sprint 3 Backlog
 | ID   | Title/Desc                                | Asignee | Status                      |
