@@ -25,13 +25,14 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Implementasi PBO pada Restart 
    - Implementasi PBO pada Reset  
    - Implementasi PBO pada Exit 
-   - Tampilan string dan clue 
+   - Merombak ulang semua kode dari java.swing ke javafx                    
+   - Tombol Restart                            
+   - Mengacak Angka                            
    - Membuat Timer dan action pause dan resume 
    - Membuat menu Highscore dengan nama pemain 
-   - Set angka yang tidak bisa diganti
-   - Cek input benar/salah
-   - Highlight grid yang bernilai sama  
-   - Perbaikan tampilan
+   - Set angka yang tidak bisa diganti         
+   - Cek input benar/salah                     
+   - Perbaikan tampilan 
 
 - **[Sprint 1](changelog/sprint-1.md) - (date from 15/11/2022 until 21/11/2022)** 
    - Tampilan grid 9x9 dengan subgrid
@@ -48,8 +49,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Implementasi PBO pada Exit 
    
 - **[Sprint 3](changelog/sprint-3.md) - (date from 29/11/2022 until 5/12/2022)** 
-   - Merombak ulang semua kode dari            
-   - java.swing ke javafx                    
+   - Merombak ulang semua kode dari java.swing ke javafx                    
    - Tombol Restart                            
    - Mengacak Angka                            
    - Membuat Timer dan action pause dan resume 
