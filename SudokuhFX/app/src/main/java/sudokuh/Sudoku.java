@@ -7,11 +7,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 
-public class Main extends Application {
+public class Sudoku extends Application {
     @Override
 	public void start(Stage primaryStage) throws Exception {
         /* Memuat sudoku.fxml dari file dan menetapkannya ke scene root object */
-        Parent root = FXMLLoader.load(getClass().getResource("/View/sudoku.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/View/MainMenu.fxml"));
         /* Menetapkan root ke scene baru dan mendefinisikan dimensinya */
         Scene scene = new Scene(root, 762, 518);
         /* Mengisi judul pada stage ("Window") */
