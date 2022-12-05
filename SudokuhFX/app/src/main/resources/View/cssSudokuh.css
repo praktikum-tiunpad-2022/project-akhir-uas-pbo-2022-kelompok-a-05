@@ -1,0 +1,8 @@
+.button:hover { /*using the button class selector with the hover state will
+    * define the style of all nine buttons when hovered over with the cursor */
+   
+       /*changes the background color of our buttons to
+        * soft white, color code is in hexadecimal */
+        -fx-background-color: #ecf0f1;
+   
+   }
