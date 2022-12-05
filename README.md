@@ -74,26 +74,26 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
    - Class Sudoku (Main Program)(Program utama yang berisi method main.)
       - 0 Class Variable
       - 2 Method
-         start() - Membuka file fxml dengan layout dan judul yang telah ditentukan
-         main() - Method main menjalankan progarm
+         - start() - Membuka file fxml dengan layout dan judul yang telah ditentukan
+         - main() - Method main menjalankan progarm
        
-   Class SudokuController(Class yang mengorganisir fungsional dari tombol-tombol, serta menu-menu lainnya yang terdapat pada game)
-      Method Clear() untuk membersihkan area yang bisa diisi pemain
-      Method tentangClicked() untuk mengeksekusi tombol about apabila di klik
-      Method helpClicked() untuk mengeksekusi tombol help apabila di klik
-      Method exitClicked() untuk mengakhiri Program
-      Method initialize() untuk menginisiasi awal program
-      Method DrawOnCanvas() untuk menulis atau melukiskan sesuatu hal ke canvas 
-      Method canvasMouseClicked() untuk mengeksekusi click mouse pada canvas 
-      Method buttonOnePressed() merupakan tombol untuk memberikan angka 1 pada cell
-      Method buttonTwoPressed() merupakan tombol untuk memberikan angka 2 pada cell
-      Method buttonThreePressed() merupakan tombol untuk memberikan angka 3 pada cell
-      Method buttonFourPressed() merupakan tombol untuk memberikan angka 4 pada cell
-      Method buttonFivePressed() merupakan tombol untuk memberikan angka 5 pada cell
-      Method buttonSixPressed() merupakan tombol untuk memberikan angka 6 pada cell
-      Method buttonSevenPressed() merupakan tombol untuk memberikan angka 7 pada cell
-      Method buttonEightPressed() merupakan tombol untuk memberikan angka 8 pada cell
-      Method buttonNinePressed() merupakan tombol untuk memberikan angka 9 pada cell
+   - Class SudokuController(Class yang mengorganisir fungsional dari tombol-tombol, serta menu-menu lainnya yang terdapat pada game)
+      - Method Clear() untuk membersihkan area yang bisa diisi pemain
+      - Method tentangClicked() untuk mengeksekusi tombol about apabila di klik
+      - Method helpClicked() untuk mengeksekusi tombol help apabila di klik
+      - Method exitClicked() untuk mengakhiri Program
+      - Method initialize() untuk menginisiasi awal program
+      - Method DrawOnCanvas() untuk menulis atau melukiskan sesuatu hal ke canvas 
+      - Method canvasMouseClicked() untuk mengeksekusi click mouse pada canvas 
+      - Method buttonOnePressed() merupakan tombol untuk memberikan angka 1 pada cell
+      - Method buttonTwoPressed() merupakan tombol untuk memberikan angka 2 pada cell
+      - Method buttonThreePressed() merupakan tombol untuk memberikan angka 3 pada cell
+      - Method buttonFourPressed() merupakan tombol untuk memberikan angka 4 pada cell
+      - Method buttonFivePressed() merupakan tombol untuk memberikan angka 5 pada cell
+      - Method buttonSixPressed() merupakan tombol untuk memberikan angka 6 pada cell
+      - Method buttonSevenPressed() merupakan tombol untuk memberikan angka 7 pada cell
+      - Method buttonEightPressed() merupakan tombol untuk memberikan angka 8 pada cell
+      - Method buttonNinePressed() merupakan tombol untuk memberikan angka 9 pada cell
       
 
 UML image here
