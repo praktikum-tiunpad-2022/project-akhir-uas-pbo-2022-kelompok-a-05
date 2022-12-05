@@ -53,22 +53,23 @@
          <children>
             <MenuBar prefHeight="25.0" prefWidth="787.0">
               <menus>
-                <Menu mnemonicParsing="false" text="File">
-                  <items>
-                    <MenuItem fx:id="restartId" mnemonicParsing="false" onAction="#restartClicked" text="Restart" />
-                        <MenuItem fx:id="clearId" mnemonicParsing="false" onAction="#clear" text="Clear" />
-                        <MenuItem fx:id="exitId" mnemonicParsing="false" onAction="#exitClicked" text="Exit" />
-                  </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="About">
+                  <Menu mnemonicParsing="false" text="Menu">
                      <items>
-                        <MenuItem fx:id="tentangId" mnemonicParsing="false" onAction="#tentangClicked" text="Tentang Mr.Sudoku" />
+                     <MenuItem fx:id="restartId" mnemonicParsing="false" onAction="#restartClicked" text="Restart" />
+                           <MenuItem fx:id="clearId" mnemonicParsing="false" onAction="#clear" text="Clear" />
+                           <MenuItem fx:id="exitId" mnemonicParsing="false" onAction="#exitClicked" text="Exit" />
                      </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Help">
-                     <items>
-                        <MenuItem fx:id="helpId" mnemonicParsing="false" onAction="#helpClicked" text="Panduan" />
-                     </items></Menu>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="About">
+                        <items>
+                           <MenuItem fx:id="tentangId" mnemonicParsing="false" onAction="#tentangClicked" text="Tentang Mr.Sudoku" />
+                        </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                        <items>
+                           <MenuItem fx:id="helpId" mnemonicParsing="false" onAction="#helpClicked" text="Panduan" />
+                        </items>
+                  </Menu>
               </menus>
             </MenuBar>
          </children>
