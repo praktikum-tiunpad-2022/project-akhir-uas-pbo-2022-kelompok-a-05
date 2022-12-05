@@ -2,7 +2,6 @@ package sudokuh;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.event.ActionEvent;
 import javafx.application.Platform;
 import javafx.event.EventHandler;
@@ -15,7 +14,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.control.*;
-
 
 public class SudokuhController implements Initializable {
 
@@ -41,8 +39,8 @@ public class SudokuhController implements Initializable {
 		GraphicsContext context = canvas.getGraphicsContext2D();
 		sudokuboard.clearInit(0);
 		drawOnCanvas(canvas.getGraphicsContext2D());
-		for(int baris = 9; baris>=0; baris--) {
-			for(int kolom = 8; kolom<=0; kolom--) {
+		for(int baris = 9; baris >= 0; baris--) {
+			for(int kolom = 8; kolom <= 0; kolom--) {
 				// Menemukan sumbu y dari cell, dengan mengalikan 50, yang mana itu tinggi dari baris di piksel
 				// Kemudian menambahkan 30, untuk menambahkan beberapa batasan
 				int sumbuY = baris * 50 + 30;
@@ -54,7 +52,7 @@ public class SudokuhController implements Initializable {
 				// Mengatur font, dari font baru, dengan ukuran huruf 20
 				context.setFont(new Font(20));
 				// Cek jika nilai sesuai dengan posisi array tidak 0
-				if(inisial[baris][kolom]!=0) {
+				if(inisial[baris][kolom] != 0) {
 					// menuliskan angka
 					context.fillText(inisial[baris][kolom] + "", sumbuX, sumbuY);
 					drawOnCanvas(context);
@@ -64,7 +62,7 @@ public class SudokuhController implements Initializable {
 	}
 	
 	//Method memberikan tentang Mr.Sudoku
-	public void tentangClicked(ActionEvent event){
+	public void tentangClicked(ActionEvent event) {
 		Alert alert = new Alert(Alert.AlertType.INFORMATION);
 		alert.setTitle("TENTANG MR.SUDOKU");
 		alert.setHeaderText("Sudoku adalah singkatan bahasa Jepang, yaitu Suuji wa dokushin ni kagiru, artinya angka-angkanya\nharus tetap tunggal. Dikenal juga sebagai Number Place atau Nanpure yang merupakan teka-teki logika.\nBertujuan untuk mengisikan angka-angka dari 1 sampai 9 ke dalam kotak berukuran 9 x 9 yang terdiri\ndari 9 kotak 3 x 3 tanpa ada angka yang berulang di satu baris, kolom atau kotak.");
@@ -73,7 +71,7 @@ public class SudokuhController implements Initializable {
 	}
 	
 	//Method memberikan bantuan dari Mr.Sudoku
-	public void helpClicked(ActionEvent event){
+	public void helpClicked(ActionEvent event) {
 		Alert alert = new Alert(Alert.AlertType.INFORMATION);
 		alert.setTitle("KAMU NANYEAA?? - MR.SUDOKU");
 		alert.setHeaderText("1. Tiap baris harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama dalam satu baris.\n2. Tiap kolom juga harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama dalam satu kolom.\n3. Tiap kotak dengan ukuran 3 x 3 yang berisi 9 kotak-kotak kecil harus diisi oleh angka 1-9 dan tidak boleh ada angka yang sama.");
@@ -91,7 +89,6 @@ public class SudokuhController implements Initializable {
 		Platform.exit();
 		System.exit(0);
 	}
-
 
 	// Membuat deklarasi Sudoku Board
 	SudokuBoard sudokuboard;
@@ -117,11 +114,10 @@ public class SudokuhController implements Initializable {
 	}
 
 	public void drawOnCanvas(GraphicsContext context) {
-
 		context.clearRect(0, 0, 450, 450);
 		// Menggambarkan Kotak bundar putih untuk papan sudoku
-		for(int baris = 0; baris<9; baris++) {
-			for(int kolom = 0; kolom<9; kolom++) {
+		for(int baris = 0; baris < 9; baris++) {
+			for(int kolom = 0; kolom < 9; kolom++) {
 				// Menemukan posisi sumbu y pada cell, dengan mengalikan baris nomor dengan 50, yang mana itu adalah tinggi baris di pixel
 				// Kemudian menambahkan 2, tu menambahkan beberapa batasan
 				int sumbuY = baris * 50 + 2;
@@ -147,8 +143,8 @@ public class SudokuhController implements Initializable {
 
 		//Menuliskan angka inisial dari Papan sudoku
 		int[][] inisial = sudokuboard.getInit();
-		for(int baris = 0; baris<9; baris++) {
-			for(int kolom = 0; kolom<9; kolom++) {
+		for(int baris = 0; baris < 9; baris++) {
+			for(int kolom = 0; kolom < 9; kolom++) {
 				// Menemukan sumbu y dari cell, dengan mengalikan 50, yang mana itu tinggi dari baris di piksel
 				// Kemudian menambahkan 30, untuk menambahkan beberapa batasan
 				int sumbuY = baris * 50 + 30;
@@ -169,8 +165,8 @@ public class SudokuhController implements Initializable {
 
 		//Menuliskan nomor pemain dari sudoku Board
 		int[][] pemain = sudokuboard.getPemain();
-		for(int baris = 0; baris<9; baris++) {
-			for(int kolom = 0; kolom<9; kolom++) {
+		for(int baris = 0; baris < 9; baris++) {
+			for(int kolom = 0; kolom < 9; kolom++) {
 				// Menemukan sumbu y dari cell, dengan mengalikan 50, yang mana itu tinggi dari baris di piksel
 				// Kemudian menambahkan 30, untuk menambahkan beberapa batasan
 				int sumbuY = baris * 50 + 30;
@@ -182,13 +178,12 @@ public class SudokuhController implements Initializable {
 				// Mengatur font, dari font baru, dengan ukuran huruf 20
 				context.setFont(new Font(22));
 				// Cek jika nilai sesuai dengan posisi array tidak 0
-				if(pemain[baris][kolom]!=0) {
+				if(pemain[baris][kolom] != 0) {
 					// menuliskan angka
 					context.fillText(pemain[baris][kolom] + "", sumbuX, sumbuY);
 				}
 			}
 		}
-
 
 		// Ketika sudokuBoard mengembalikan nilai true dari method cekSukses 
 		// Berarti itu tidak ditemukan kesalahan
@@ -202,8 +197,6 @@ public class SudokuhController implements Initializable {
 			// Menampilkan SUKSESS
 			context.fillText("SUKSESS!", 150, 250);
 		}
-
-
 	}
 
 	/***
@@ -211,7 +204,6 @@ public class SudokuhController implements Initializable {
 	 */
 	public void canvasMouseClicked() {
 		canvas.setOnMouseClicked(new EventHandler<MouseEvent>() {
-
 			@Override
 			public void handle(MouseEvent event) {
 				int mouseX = (int) event.getX();
@@ -224,7 +216,6 @@ public class SudokuhController implements Initializable {
 				seleksiKolomPemain = (int) (mouseX / 50);
 
 				//Mengambil cavas graphics context dan redraw
-
 				drawOnCanvas(canvas.getGraphicsContext2D());
 			}
 		});
@@ -235,9 +226,7 @@ public class SudokuhController implements Initializable {
 	 */
 	public void buttonOnePressed() {
 		sudokuboard.modifPemain(1, seleksiBarisPemain, seleksiKolomPemain);
-
-		// Mengrefesh canvas
-		drawOnCanvas(canvas.getGraphicsContext2D());
+		drawOnCanvas(canvas.getGraphicsContext2D()); // Mengrefesh canvas
 	}
 
 	/***
@@ -303,5 +292,4 @@ public class SudokuhController implements Initializable {
 		sudokuboard.modifPemain(9, seleksiBarisPemain, seleksiKolomPemain);
 		drawOnCanvas(canvas.getGraphicsContext2D());
 	}
-
 }
