@@ -104,14 +104,14 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
          - Method modifPemain() untuk memodifikasi area pemain yang bisa ditulis
          - Method cekJawaban() untuk melakukan pengecekan terhadap jawaban pemain
          - Method cekJawabanUmum() untuk melakukan pengecekan terhadap jawaban pemain sesuai dengan aturan sudoku
-         - 
+       
    - Class sceneController(Class untuk mengganti halaman baru dan mengorganisir halaman baru tersebut)
       - 3 Method
          - Method gameClicked() untuk mengeksekusi game ketika tombol diklik
          - Method aboutyClicked() untuk mengeksekusi tentang sudoku ketika tombol diklik
          - Method keluarClicked() untuk keluar dari program ketika tombol diklik     
           
-    - Class Time(Class untuk menjalankan timer)
+   - Class Time(Class untuk menjalankan timer)
       - 2 Method
          - Method getWaktuSekarang() untuk mengembalikan waktu dengan format (HH:MM:SS)
          - Method oneSecondPassed() untuk mengeksekusi looping waktu      
