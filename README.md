@@ -116,7 +116,10 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
          - Method getWaktuSekarang() untuk mengembalikan waktu dengan format (HH:MM:SS)
          - Method oneSecondPassed() untuk mengeksekusi looping waktu      
 
-UML image here
+UML image here!
+[Uploading UML Sudoku Kel-05.png…]()
+
+
 
 ## Notable Assumption and Design App Details
 
