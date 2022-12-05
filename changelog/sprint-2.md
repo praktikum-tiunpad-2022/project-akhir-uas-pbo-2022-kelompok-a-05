@@ -33,10 +33,13 @@ Sprint ke 2 kali ini proses program udah mulai mendekati kata selesai, hanya kur
 ## Next Sprint Backlog (Sprint 3)
 | ID   | Title/Desc                                | Asignee | Status  |
 | ---- | ------------------------------------------|-------- | ------- |
-| 3.1  | Tampilan string dan clue                  | Zidan   | TBC     |
-| 3.2  | Membuat Timer dan action pause dan resume | Zidan   | TBC     |
-| 3.3  | Membuat menu Highscore dengan nama pemain | Zidan   | TBC     |
-| 3.4  | Set angka yang tidak bisa diganti         | Kia     | TBC     |
-| 3.5  | Cek input benar/salah                     | Kia     | TBC     |
-| 3.6  | Highlight grid yang bernilai sama         | Sarah   | TBC     |
-| 3.7  | Perbaikan tampilan                        | Sarah   | TBC     |
+| 3.1  | Merombak ulang semua kode dari            | Semua   | TBC     |
+|      | java.swing ke javafx                      |         |         |
+| 3.2  | Tombol Restart                            | Zidan   | TBC     |
+| 3.3  | Mengacak Angka                            | Zidan   | TBC     |
+| 3.4  | Membuat Timer dan action pause dan resume | Zidan   | TBC     |
+| 3.5  | Membuat menu Highscore dengan nama pemain | Zidan   | TBC     |
+| 3.6  | Set angka yang tidak bisa diganti         | Kia     | TBC     |
+| 3.7  | Cek input benar/salah                     | Kia     | TBC     |
+| 3.8  | Perbaikan tampilan                        | Sarah   | TBC     |
+
