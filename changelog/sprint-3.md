@@ -18,7 +18,7 @@
 | ---- | ------------------------------------------|-------- | --------------------------- |
 | 3.1  | Merombak ulang semua kode dari            | Semua   | Done                        |
 |      | java.swing ke javafx                      |         |                             |
-| 3.2  | Tombol Restart                            | Zidan   | Failed                      |
+| 3.2  | Pembuatan Difficult                       | Zidan   | Failed                      |
 | 3.3  | Mengacak Angka                            | Zidan   | Failed                      |
 | 3.4  | Membuat Timer dan action pause dan resume | Zidan   | Timer Done but Pause Failed |
 | 3.5  | Membuat menu Highscore dengan nama pemain | Zidan   | Failed                      |
