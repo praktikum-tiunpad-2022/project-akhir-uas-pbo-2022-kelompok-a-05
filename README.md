@@ -117,7 +117,8 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
          - Method oneSecondPassed() untuk mengeksekusi looping waktu      
 
 UML image here!
-![UML Sudoku Kel-05](https://user-images.githubusercontent.com/100187385/205719934-e4d446ff-bc54-4b75-aa96-53eed23b1c22.png)
+![UML Sudoku Kel 05](https://user-images.githubusercontent.com/100187385/205811022-28814fdf-ccf7-45e3-8238-2c0208d74fcf.png)
+
 
 
 ## Notable Assumption and Design App Details
