@@ -35,7 +35,7 @@ Sprint ke 2 kali ini proses program udah mulai mendekati kata selesai, hanya kur
 | ---- | ------------------------------------------|-------- | ------- |
 | 3.1  | Merombak ulang semua kode dari            | Semua   | TBC     |
 |      | java.swing ke javafx                      |         |         |
-| 3.2  | Tombol Restart                            | Zidan   | TBC     |
+| 3.2  | Difficult                                 | Zidan   | TBC     |
 | 3.3  | Mengacak Angka                            | Zidan   | TBC     |
 | 3.4  | Membuat Timer dan action pause dan resume | Zidan   | TBC     |
 | 3.5  | Membuat menu Highscore dengan nama pemain | Zidan   | TBC     |
