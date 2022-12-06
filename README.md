@@ -27,7 +27,7 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
    - Implementasi PBO pada Reset  
    - Implementasi PBO pada Exit 
    - Merombak ulang semua kode dari java.swing ke javafx 
-   - Tombol Restart                                               
+   - Pembuatan Difficult                                                   
    - Mengacak Angka                            
    - Membuat Timer dan action pause dan resume 
    - Membuat menu Highscore dengan nama pemain 
@@ -52,7 +52,7 @@ Sudoku merupakan puzzle yang berbasis logika dimana pemain dapat meletakkan angk
 - **[Sprint 3](changelog/sprint-3.md) - (date from 29/11/2022 until 5/12/2022)** 
    - Merombak ulang semua kode dari java.swing ke javafx                    
    - Pembuatan Difficult                            
-   - Mengacak Angka Tombol Restart                           
+   - Mengacak Angka                           
    - Membuat Timer dan action pause dan resume 
    - Membuat menu Highscore dengan nama pemain 
    - Set angka yang tidak bisa diganti         
