@@ -122,24 +122,24 @@ UML image here!
 
 
 ## Notable Assumption and Design App Details
-<img src="game.jpg">
+<img src="img/game.jpg">
 1. Grid ubin dengan besar 9 x 9 yang terdiri dari 3 x 3 sub-grids dimana ubin adalah komponen drawing board dengan ukuran 540x540.
 2. Navbar berisi File, Help, dan About
    - File berisi tombol untuk  Reset Game (menghapus input yang sudah ada), dan Exit (keluar dari Game)
-   <img src="exit.jpg">
+   <img src="img/exit.jpg">
    - Help berisi tombol Game Instructions untuk menampilkan cara bermain pada sudoku ini
-   <img src="help.jpg">
+   <img src="img/help.jpg">
    - About berisi tombol Sudoku Game untuk menampilkan penjelasan singkat tentang Sudoku Game
-   <img src="about.jpg">
+   <img src="img/about.jpg">
 3. Angka yang tidak bisa diubah diberi warna hitam.
 4. Angka yang diisi pemain berwarna hijau.
-   <img src="input.jpg">
+   <img src="img/input.jpg">
 5. Masking terhadap ubin tertentu (angka disembunyikan dan dijadikan text field).
 6. Ubin yang tidak dimasking bersifat read-only (angka didalamnya tidak bisa diubah).
 7. Cell yang ditunjuk berwarna merah.
 8. Terdapat sembilan tombol angka-angka, cara mengisi cellnya dengan mengklik cell lalu mengklik tombolnya sesuai angkanya.
 9. Ada tampilan awal sebelum masuk ke game, terdapat 3 tombol New Game (untuk memulai game baru), About (untuk menampilkan penjelasan singkat tentang Sudoku Game), dan Exit (keluar dari Game).
-   <img src="main.jpg">
+   <img src="img/main.jpg">
 10. Pada game ada timer untuk menghitung berapa lama pemain bermain game.
 11. Terdapat tampilan "Sukses" jika semua cell = benar.
-   <img src="berhasil.jpg">
+   <img src="img/berhasil.jpg">
